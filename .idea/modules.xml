@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/fccyt-rock-paper-scissors.iml" filepath="$PROJECT_DIR$/fccyt-rock-paper-scissors.iml" />
-      <module fileurl="file://$PROJECT_DIR$/index.html/index.html.iml" filepath="$PROJECT_DIR$/index.html/index.html.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rps-app/index.html.iml" filepath="$PROJECT_DIR$/rps-app/index.html.iml" />
     </modules>
   </component>
 </project>
