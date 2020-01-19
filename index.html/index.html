@@ -1,0 +1,73 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>Rock Paper Scissors</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Asap:400,500i,700&display=swap" rel="stylesheet">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+
+  <!--[if IE]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+
+  <header>
+    <h1>Rock Paper Scissors</h1>
+  </header>
+
+  <section class="scoreBoard">
+    <section id="userLabel" class="badge">user</section>
+    <section id="compLabel" class="badge">comp</section>
+    <section id="userScore">0</section>:<section id="compScore">0</section>
+  </section><!--END scoreBoard-->
+
+  <section class="result">
+    <p>Paper covers rock, You Win!</p>
+  </section><!--END result-->
+
+  <section class="choices">
+    <section class="choice" id="rock">
+      <img src="img/rock.png" alt="rock">
+    </section>
+    <section class="choice" id="paper">
+      <img src="img/paper.png" alt="paper">
+    </section>
+    <section class="choice" id="scissors">
+      <img src="img/scissors.png" alt="scissors">
+    </section>
+  </section>
+
+  <p id="actionMessage">Make Your Move</p>
+
+  <!-- Add your site or application content here -->
+<!--  <p>Hello world! This is HTML5 Boilerplate.</p>-->
+  <script src="js/vendor/modernizr-3.8.0.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/app.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>
